@@ -1,0 +1,1 @@
+/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob/ament_cmake_environment_hooks/local_setup.sh

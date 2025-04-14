@@ -1,0 +1,27 @@
+[0.600s] Invoking command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/coppelia_sim_ros2': PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coppelia_sim_ros2 build --build-base /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build install --record /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/install.log --single-version-externally-managed install_data
+[0.767s] running egg_info
+[0.777s] writing ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/PKG-INFO
+[0.777s] writing dependency_links to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/dependency_links.txt
+[0.777s] writing entry points to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/entry_points.txt
+[0.777s] writing requirements to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/requires.txt
+[0.778s] writing top-level names to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/top_level.txt
+[0.798s] reading manifest file '../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/SOURCES.txt'
+[0.799s] writing manifest file '../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.799s] copying coppelia_sim_ros2/image_display.py -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build/lib/coppelia_sim_ros2
+[0.799s] copying coppelia_sim_ros2/__init__.py -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build/lib/coppelia_sim_ros2
+[0.799s] running install
+[0.803s] running install_lib
+[0.814s] copying /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build/lib/coppelia_sim_ros2/image_display.py -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2
+[0.814s] byte-compiling /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2/image_display.py to image_display.cpython-310.pyc
+[0.814s] running install_data
+[0.814s] copying resource/coppelia_sim_ros2 -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/share/ament_index/resource_index/packages
+[0.815s] copying package.xml -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/share/coppelia_sim_ros2
+[0.815s] running install_egg_info
+[0.825s] removing '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.826s] Copying ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info to /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2-0.0.0-py3.10.egg-info
+[0.826s] running install_scripts
+[0.918s] Installing image_display script to /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/coppelia_sim_ros2
+[0.918s] writing list of installed files to '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/install.log'
+[0.937s] Invoked command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/coppelia_sim_ros2' returned '0': PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coppelia_sim_ros2 build --build-base /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build install --record /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/install.log --single-version-externally-managed install_data

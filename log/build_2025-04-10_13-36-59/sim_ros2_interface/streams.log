@@ -1,0 +1,52 @@
+[0.145s] Invoking command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2 -DCMAKE_INSTALL_PREFIX=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface
+[0.221s] -- The C compiler identification is GNU 11.4.0
+[0.287s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.547s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.621s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.629s] -- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.665s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.679s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.762s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.772s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[0.833s] -- Found pendulum_msgs: 0.20.5 (/opt/ros/humble/share/pendulum_msgs/cmake)
+[0.845s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[0.858s] -- Found shape_msgs: 4.8.0 (/opt/ros/humble/share/shape_msgs/cmake)
+[0.873s] -- Found stereo_msgs: 4.8.0 (/opt/ros/humble/share/stereo_msgs/cmake)
+[0.891s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.904s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.905s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.905s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.983s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.986s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.091s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.211s] -- Found Threads: TRUE  
+[1.318s] -- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.337s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.359s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.369s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.384s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[1.402s] -- Configuring incomplete, errors occurred!
+[1.402s] [31mCMake Error at CMakeLists.txt:55 (message):
+[1.402s]   Environment variable COPPELIASIM_ROOT_DIR is not set
+[1.402s] 
+[1.402s] [0m
+[1.409s] Invoked command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2 -DCMAKE_INSTALL_PREFIX=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface

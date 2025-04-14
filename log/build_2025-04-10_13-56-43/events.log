@@ -1,0 +1,1030 @@
+[0.000000] (-) TimerEvent: {}
+[0.000537] (coppelia_sim_ros2) JobQueued: {'identifier': 'coppelia_sim_ros2', 'dependencies': OrderedDict()}
+[0.000589] (sim_ros2_interface) JobQueued: {'identifier': 'sim_ros2_interface', 'dependencies': OrderedDict()}
+[0.000659] (coppelia_sim_ros2) JobStarted: {'identifier': 'coppelia_sim_ros2'}
+[0.005017] (sim_ros2_interface) JobStarted: {'identifier': 'sim_ros2_interface'}
+[0.099999] (-) TimerEvent: {}
+[0.146527] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'cmake'}
+[0.146902] (sim_ros2_interface) Command: {'cmd': ['/opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2', '-DCMAKE_INSTALL_PREFIX=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface'], 'cwd': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chrisrvt'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/chrisrvt/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12/lib64:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisrvt'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/chrisrvt/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/chrisrvt/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7157'), ('NVM_DIR', '/home/chrisrvt/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisrvt'), ('JOURNAL_STREAM', '8:16855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisrvt'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12/bin:/usr/local/cuda-12/bin:/home/chrisrvt/anaconda3/condabin:/usr/local/cuda-12/bin:/home/chrisrvt/.nvm/versions/node/v20.16.0/bin:/opt/ros/humble/bin:/home/chrisrvt/.local/bin:/opt/st/stm32cubeclt_1.18.0:/opt/st/stm32cubeclt_1.18.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.18.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.18.0/CMake/bin:/opt/st/stm32cubeclt_1.18.0/Ninja/bin:/opt/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chrisrvt/anaconda3/bin'), ('SESSION_MANAGER', 'local/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:@/tmp/.ICE-unix/1889,unix/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '36aa97cfa42c4c469fc1ecbfef20edce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0G4J42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chrisrvt/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e12c22ea-95b6-4017-b072-e11b95790994'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chrisrvt/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble')]), 'shell': False}
+[0.154438] (sim_ros2_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200186] (-) TimerEvent: {}
+[0.300472] (-) TimerEvent: {}
+[0.301405] (sim_ros2_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.303167] (sim_ros2_interface) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[0.323631] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.325613] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.330651] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.339018] (sim_ros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.349577] (sim_ros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.383433] (sim_ros2_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.395037] (sim_ros2_interface) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[0.400551] (-) TimerEvent: {}
+[0.402685] (sim_ros2_interface) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[0.455921] (sim_ros2_interface) StdoutLine: {'line': b'-- Found pendulum_msgs: 0.20.5 (/opt/ros/humble/share/pendulum_msgs/cmake)\n'}
+[0.466007] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)\n'}
+[0.476520] (sim_ros2_interface) StdoutLine: {'line': b'-- Found shape_msgs: 4.8.0 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[0.489157] (sim_ros2_interface) StdoutLine: {'line': b'-- Found stereo_msgs: 4.8.0 (/opt/ros/humble/share/stereo_msgs/cmake)\n'}
+[0.500618] (-) TimerEvent: {}
+[0.504715] (sim_ros2_interface) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.507263] (sim_ros2_interface) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.508376] (sim_ros2_interface) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.554341] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.555414] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.557871] (coppelia_sim_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/coppelia_sim_ros2', 'build', '--build-base', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build', 'install', '--record', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/coppelia_sim_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chrisrvt', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/chrisrvt/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12/lib64:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chrisrvt', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/chrisrvt/.nvm/versions/node/v20.16.0/bin', 'NVM_INC': '/home/chrisrvt/.nvm/versions/node/v20.16.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1742', 'SYSTEMD_EXEC_PID': '2105', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7157', 'NVM_DIR': '/home/chrisrvt/.nvm', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chrisrvt', 'JOURNAL_STREAM': '8:16855', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chrisrvt', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-12/bin:/usr/local/cuda-12/bin:/home/chrisrvt/anaconda3/condabin:/usr/local/cuda-12/bin:/home/chrisrvt/.nvm/versions/node/v20.16.0/bin:/opt/ros/humble/bin:/home/chrisrvt/.local/bin:/opt/st/stm32cubeclt_1.18.0:/opt/st/stm32cubeclt_1.18.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.18.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.18.0/CMake/bin:/opt/st/stm32cubeclt_1.18.0/Ninja/bin:/opt/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chrisrvt/anaconda3/bin', 'SESSION_MANAGER': 'local/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:@/tmp/.ICE-unix/1889,unix/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:/tmp/.ICE-unix/1889', 'INVOCATION_ID': '36aa97cfa42c4c469fc1ecbfef20edce', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0G4J42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/chrisrvt/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e12c22ea-95b6-4017-b072-e11b95790994', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/chrisrvt/anaconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces'}, 'shell': False}
+[0.600732] (-) TimerEvent: {}
+[0.642124] (sim_ros2_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700849] (-) TimerEvent: {}
+[0.714611] (coppelia_sim_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.723658] (coppelia_sim_ros2) StdoutLine: {'line': b'writing ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/PKG-INFO\n'}
+[0.723939] (coppelia_sim_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/dependency_links.txt\n'}
+[0.724057] (coppelia_sim_ros2) StdoutLine: {'line': b'writing requirements to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/requires.txt\n'}
+[0.724095] (coppelia_sim_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/top_level.txt\n'}
+[0.724843] (sim_ros2_interface) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.741146] (sim_ros2_interface) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.742856] (coppelia_sim_ros2) StdoutLine: {'line': b"reading manifest file '../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/SOURCES.txt'\n"}
+[0.743316] (coppelia_sim_ros2) StdoutLine: {'line': b"writing manifest file '../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info/SOURCES.txt'\n"}
+[0.743463] (coppelia_sim_ros2) StdoutLine: {'line': b'running build\n'}
+[0.743568] (coppelia_sim_ros2) StdoutLine: {'line': b'running build_py\n'}
+[0.743651] (coppelia_sim_ros2) StdoutLine: {'line': b'copying coppelia_sim_ros2/__init__.py -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/build/lib/coppelia_sim_ros2\n'}
+[0.743763] (coppelia_sim_ros2) StdoutLine: {'line': b'running install\n'}
+[0.747137] (coppelia_sim_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[0.756702] (coppelia_sim_ros2) StdoutLine: {'line': b'running install_data\n'}
+[0.756823] (coppelia_sim_ros2) StdoutLine: {'line': b'copying resource/coppelia_sim_ros2 -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/share/ament_index/resource_index/packages\n'}
+[0.756902] (coppelia_sim_ros2) StdoutLine: {'line': b'copying package.xml -> /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/share/coppelia_sim_ros2\n'}
+[0.756977] (coppelia_sim_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.760462] (sim_ros2_interface) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.766622] (coppelia_sim_ros2) StdoutLine: {'line': b"removing '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.766814] (coppelia_sim_ros2) StdoutLine: {'line': b'Copying ../../build/coppelia_sim_ros2/coppelia_sim_ros2.egg-info to /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/coppelia_sim_ros2/lib/python3.10/site-packages/coppelia_sim_ros2-0.0.0-py3.10.egg-info\n'}
+[0.767141] (coppelia_sim_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.768121] (sim_ros2_interface) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.781347] (sim_ros2_interface) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.795613] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include\n'}
+[0.795742] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04\n'}
+[0.795823] (sim_ros2_interface) StdoutLine: {'line': b'-- Checking CoppeliaSim header version...\n'}
+[0.800967] (-) TimerEvent: {}
+[0.855268] (coppelia_sim_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/coppelia_sim_ros2/install.log'\n"}
+[0.871946] (coppelia_sim_ros2) CommandEnded: {'returncode': 0}
+[0.877903] (coppelia_sim_ros2) JobEnded: {'identifier': 'coppelia_sim_ros2', 'rc': 0}
+[0.901166] (-) TimerEvent: {}
+[1.001424] (-) TimerEvent: {}
+[1.023575] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim headers version 4.9.0 rev6\n'}
+[1.023832] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04\n'}
+[1.023929] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04\n'}
+[1.024014] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04\n'}
+[1.024095] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04\n'}
+[1.024174] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/addOns\n'}
+[1.024265] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/manual\n'}
+[1.024348] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/models\n'}
+[1.024445] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/scenes\n'}
+[1.024529] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/lua\n'}
+[1.024613] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/python\n'}
+[1.024702] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/coppeliaSim\n'}
+[1.041169] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex \n'}
+[1.051650] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[1.101511] (-) TimerEvent: {}
+[1.180699] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[1.182043] (sim_ros2_interface) StdoutLine: {'line': b'-- Adding simStubsGen command...\n'}
+[1.201729] (-) TimerEvent: {}
+[1.293049] (sim_ros2_interface) StdoutLine: {'line': b'-- Reading plugin metadata...\n'}
+[1.301855] (-) TimerEvent: {}
+[1.331460] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[1.355500] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[1.364721] (sim_ros2_interface) StdoutLine: {'line': b'-- Plugin: simROS2\n'}
+[1.402032] (-) TimerEvent: {}
+[1.434790] (sim_ros2_interface) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.454459] (sim_ros2_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.458404] (sim_ros2_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface\n'}
+[1.466124] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[1.466485] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'build'}
+[1.466504] (sim_ros2_interface) Command: {'cmd': ['/opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake', '--build', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface', '--', '-j20', '-l20'], 'cwd': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chrisrvt'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/chrisrvt/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12/lib64:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisrvt'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/chrisrvt/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/chrisrvt/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7157'), ('NVM_DIR', '/home/chrisrvt/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisrvt'), ('JOURNAL_STREAM', '8:16855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisrvt'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12/bin:/usr/local/cuda-12/bin:/home/chrisrvt/anaconda3/condabin:/usr/local/cuda-12/bin:/home/chrisrvt/.nvm/versions/node/v20.16.0/bin:/opt/ros/humble/bin:/home/chrisrvt/.local/bin:/opt/st/stm32cubeclt_1.18.0:/opt/st/stm32cubeclt_1.18.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.18.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.18.0/CMake/bin:/opt/st/stm32cubeclt_1.18.0/Ninja/bin:/opt/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chrisrvt/anaconda3/bin'), ('SESSION_MANAGER', 'local/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:@/tmp/.ICE-unix/1889,unix/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '36aa97cfa42c4c469fc1ecbfef20edce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0G4J42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chrisrvt/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e12c22ea-95b6-4017-b072-e11b95790994'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chrisrvt/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble')]), 'shell': False}
+[1.493510] (sim_ros2_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating generated/actcli_cancelLastGoal.cpp\x1b[0m\n'}
+[1.493893] (sim_ros2_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating generated/actcli_del.cpp\x1b[0m\n'}
+[1.494169] (sim_ros2_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating generated/actcli_sendGoal.cpp\x1b[0m\n'}
+[1.494450] (sim_ros2_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating generated/actcli_new.cpp\x1b[0m\n'}
+[1.494764] (sim_ros2_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_canceled.cpp\x1b[0m\n'}
+[1.495020] (sim_ros2_interface) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_abort.cpp\x1b[0m\n'}
+[1.495417] (sim_ros2_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_execute.cpp\x1b[0m\n'}
+[1.496040] (sim_ros2_interface) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_canceling.cpp\x1b[0m\n'}
+[1.496612] (sim_ros2_interface) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_active.cpp\x1b[0m\n'}
+[1.497719] (sim_ros2_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_executing.cpp\x1b[0m\n'}
+[1.499186] (sim_ros2_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_publish_feedback.cpp\x1b[0m\n'}
+[1.500486] (sim_ros2_interface) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_succeed.cpp\x1b[0m\n'}
+[1.500875] (sim_ros2_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating generated/actsrv_del.cpp\x1b[0m\n'}
+[1.500980] (sim_ros2_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating generated/actsrv_new.cpp\x1b[0m\n'}
+[1.502647] (sim_ros2_interface) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating generated/callbacks.cpp\x1b[0m\n'}
+[1.502781] (-) TimerEvent: {}
+[1.502884] (sim_ros2_interface) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating generated/callbacks.h\x1b[0m\n'}
+[1.502969] (sim_ros2_interface) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating generated/cli_call.cpp\x1b[0m\n'}
+[1.503029] (sim_ros2_interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating generated/cli_del.cpp\x1b[0m\n'}
+[1.503085] (sim_ros2_interface) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating generated/cli_new.cpp\x1b[0m\n'}
+[1.511289] (sim_ros2_interface) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating generated/cli_wait.cpp\x1b[0m\n'}
+[1.602885] (-) TimerEvent: {}
+[1.703163] (-) TimerEvent: {}
+[1.803665] (-) TimerEvent: {}
+[1.891524] (sim_ros2_interface) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating generated/if_list.cpp\x1b[0m\n'}
+[1.891976] (sim_ros2_interface) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating generated/pub_del.cpp\x1b[0m\n'}
+[1.892097] (sim_ros2_interface) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating generated/if_new.cpp\x1b[0m\n'}
+[1.892164] (sim_ros2_interface) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating generated/if_const.cpp\x1b[0m\n'}
+[1.892386] (sim_ros2_interface) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating generated/pub_new.cpp\x1b[0m\n'}
+[1.895576] (sim_ros2_interface) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating generated/pub_publish.cpp\x1b[0m\n'}
+[1.902152] (sim_ros2_interface) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating generated/srv_del.cpp\x1b[0m\n'}
+[1.903732] (sim_ros2_interface) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating generated/srv_new.cpp\x1b[0m\n'}
+[1.903930] (-) TimerEvent: {}
+[1.904825] (sim_ros2_interface) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating generated/sub_del.cpp\x1b[0m\n'}
+[1.905035] (sim_ros2_interface) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating generated/sub_new.cpp\x1b[0m\n'}
+[2.004023] (-) TimerEvent: {}
+[2.104295] (-) TimerEvent: {}
+[2.183009] (sim_ros2_interface) StdoutLine: {'line': b'[ 75%] Built target generate_ros_code\n'}
+[2.186280] (sim_ros2_interface) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/typecheck.lua\x1b[0m\n'}
+[2.204353] (-) TimerEvent: {}
+[2.210632] (sim_ros2_interface) StdoutLine: {'line': b'/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/generate.py --verbose --xml-file /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml --gen-all /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated --lua-file /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/lua/simROS2.lua\n'}
+[2.210844] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.213076] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/generate_lua_xml.py /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/lua/simROS2.lua /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/lua.xml\n'}
+[2.238216] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.243727] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/merge_xml.py /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/lua.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/reference.xml\n'}
+[2.268164] (sim_ros2_interface) StdoutLine: {'line': b'xsltproc -o /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/reference.html /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/xsl/reference.xsl /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/reference.xml\n'}
+[2.291422] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/generate_lua_typechecker.py /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/lua/simROS2.lua /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/lua.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/typecheck.lua\n'}
+[2.304422] (-) TimerEvent: {}
+[2.321310] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.324547] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file lua.xml will not be validated.\n'}
+[2.327486] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/generate_api_index.py /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/reference.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/index.json\n'}
+[2.352332] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file reference.xml will not be validated.\n'}
+[2.357533] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/generate_ce.py /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/reference.xml /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/ce.lua\n'}
+[2.380073] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file reference.xml will not be validated.\n'}
+[2.385173] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml -P /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen -i /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/cpp/stubs.cpp -o /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/stubs.cpp\n'}
+[2.404492] (-) TimerEvent: {}
+[2.422495] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.429817] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml -P /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen -i /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/cpp/stubs.h -o /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/stubs.h\n'}
+[2.452605] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.458115] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml -P /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen -i /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/cpp/plugin.h -o /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/plugin.h\n'}
+[2.481149] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.486405] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/meta/callbacks.xml -P /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen -i /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simStubsGen/cpp/stubsPlusPlus.cpp -o /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/generated/stubsPlusPlus.cpp\n'}
+[2.504559] (-) TimerEvent: {}
+[2.508962] (sim_ros2_interface) StderrLine: {'line': b'warning: missing python package "xmlschema"; input file callbacks.xml will not be validated.\n'}
+[2.528477] (sim_ros2_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o\x1b[0m\n'}
+[2.528890] (sim_ros2_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simPlusPlus/Lib.cpp.o\x1b[0m\n'}
+[2.529107] (sim_ros2_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simLib/simLib.cpp.o\x1b[0m\n'}
+[2.529262] (sim_ros2_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o\x1b[0m\n'}
+[2.529513] (sim_ros2_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/simPlusPlus/Plugin.cpp.o\x1b[0m\n'}
+[2.529733] (sim_ros2_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o\x1b[0m\n'}
+[2.530580] (sim_ros2_interface) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o\x1b[0m\n'}
+[2.604803] (-) TimerEvent: {}
+[2.705186] (-) TimerEvent: {}
+[2.805491] (-) TimerEvent: {}
+[2.905833] (-) TimerEvent: {}
+[3.006254] (-) TimerEvent: {}
+[3.106701] (-) TimerEvent: {}
+[3.207149] (-) TimerEvent: {}
+[3.307558] (-) TimerEvent: {}
+[3.408002] (-) TimerEvent: {}
+[3.508428] (-) TimerEvent: {}
+[3.608877] (-) TimerEvent: {}
+[3.709326] (-) TimerEvent: {}
+[3.809757] (-) TimerEvent: {}
+[3.910222] (-) TimerEvent: {}
+[4.010686] (-) TimerEvent: {}
+[4.111135] (-) TimerEvent: {}
+[4.211455] (-) TimerEvent: {}
+[4.311913] (-) TimerEvent: {}
+[4.412361] (-) TimerEvent: {}
+[4.512779] (-) TimerEvent: {}
+[4.613202] (-) TimerEvent: {}
+[4.713602] (-) TimerEvent: {}
+[4.814049] (-) TimerEvent: {}
+[4.914521] (-) TimerEvent: {}
+[5.014963] (-) TimerEvent: {}
+[5.115409] (-) TimerEvent: {}
+[5.215841] (-) TimerEvent: {}
+[5.316287] (-) TimerEvent: {}
+[5.416697] (-) TimerEvent: {}
+[5.517037] (-) TimerEvent: {}
+[5.617374] (-) TimerEvent: {}
+[5.717620] (-) TimerEvent: {}
+[5.817977] (-) TimerEvent: {}
+[5.918331] (-) TimerEvent: {}
+[6.018557] (-) TimerEvent: {}
+[6.118817] (-) TimerEvent: {}
+[6.219152] (-) TimerEvent: {}
+[6.319578] (-) TimerEvent: {}
+[6.419842] (-) TimerEvent: {}
+[6.520155] (-) TimerEvent: {}
+[6.620438] (-) TimerEvent: {}
+[6.720737] (-) TimerEvent: {}
+[6.821063] (-) TimerEvent: {}
+[6.921444] (-) TimerEvent: {}
+[7.021858] (-) TimerEvent: {}
+[7.122136] (-) TimerEvent: {}
+[7.222618] (-) TimerEvent: {}
+[7.322949] (-) TimerEvent: {}
+[7.423305] (-) TimerEvent: {}
+[7.523647] (-) TimerEvent: {}
+[7.624002] (-) TimerEvent: {}
+[7.724351] (-) TimerEvent: {}
+[7.824594] (-) TimerEvent: {}
+[7.924869] (-) TimerEvent: {}
+[8.025202] (-) TimerEvent: {}
+[8.125449] (-) TimerEvent: {}
+[8.225720] (-) TimerEvent: {}
+[8.326067] (-) TimerEvent: {}
+[8.426404] (-) TimerEvent: {}
+[8.526689] (-) TimerEvent: {}
+[8.627042] (-) TimerEvent: {}
+[8.727400] (-) TimerEvent: {}
+[8.827635] (-) TimerEvent: {}
+[8.927909] (-) TimerEvent: {}
+[9.028261] (-) TimerEvent: {}
+[9.128599] (-) TimerEvent: {}
+[9.228928] (-) TimerEvent: {}
+[9.329282] (-) TimerEvent: {}
+[9.429510] (-) TimerEvent: {}
+[9.529855] (-) TimerEvent: {}
+[9.630201] (-) TimerEvent: {}
+[9.730537] (-) TimerEvent: {}
+[9.830876] (-) TimerEvent: {}
+[9.931215] (-) TimerEvent: {}
+[10.031557] (-) TimerEvent: {}
+[10.131879] (-) TimerEvent: {}
+[10.232222] (-) TimerEvent: {}
+[10.332480] (-) TimerEvent: {}
+[10.432823] (-) TimerEvent: {}
+[10.533187] (-) TimerEvent: {}
+[10.633577] (-) TimerEvent: {}
+[10.733942] (-) TimerEvent: {}
+[10.834298] (-) TimerEvent: {}
+[10.934672] (-) TimerEvent: {}
+[11.035016] (-) TimerEvent: {}
+[11.135354] (-) TimerEvent: {}
+[11.235689] (-) TimerEvent: {}
+[11.336019] (-) TimerEvent: {}
+[11.436375] (-) TimerEvent: {}
+[11.536723] (-) TimerEvent: {}
+[11.637063] (-) TimerEvent: {}
+[11.737421] (-) TimerEvent: {}
+[11.837793] (-) TimerEvent: {}
+[11.938135] (-) TimerEvent: {}
+[12.038488] (-) TimerEvent: {}
+[12.138837] (-) TimerEvent: {}
+[12.239170] (-) TimerEvent: {}
+[12.339506] (-) TimerEvent: {}
+[12.439850] (-) TimerEvent: {}
+[12.540215] (-) TimerEvent: {}
+[12.640458] (-) TimerEvent: {}
+[12.740689] (-) TimerEvent: {}
+[12.841036] (-) TimerEvent: {}
+[12.941379] (-) TimerEvent: {}
+[13.041720] (-) TimerEvent: {}
+[13.142054] (-) TimerEvent: {}
+[13.242405] (-) TimerEvent: {}
+[13.342730] (-) TimerEvent: {}
+[13.443057] (-) TimerEvent: {}
+[13.543403] (-) TimerEvent: {}
+[13.643734] (-) TimerEvent: {}
+[13.744066] (-) TimerEvent: {}
+[13.844420] (-) TimerEvent: {}
+[13.944785] (-) TimerEvent: {}
+[14.045129] (-) TimerEvent: {}
+[14.145473] (-) TimerEvent: {}
+[14.245808] (-) TimerEvent: {}
+[14.346148] (-) TimerEvent: {}
+[14.446528] (-) TimerEvent: {}
+[14.546874] (-) TimerEvent: {}
+[14.647203] (-) TimerEvent: {}
+[14.747552] (-) TimerEvent: {}
+[14.847891] (-) TimerEvent: {}
+[14.948279] (-) TimerEvent: {}
+[15.048617] (-) TimerEvent: {}
+[15.148983] (-) TimerEvent: {}
+[15.249350] (-) TimerEvent: {}
+[15.349702] (-) TimerEvent: {}
+[15.450050] (-) TimerEvent: {}
+[15.550408] (-) TimerEvent: {}
+[15.650767] (-) TimerEvent: {}
+[15.751119] (-) TimerEvent: {}
+[15.851466] (-) TimerEvent: {}
+[15.951798] (-) TimerEvent: {}
+[16.052180] (-) TimerEvent: {}
+[16.152553] (-) TimerEvent: {}
+[16.252831] (-) TimerEvent: {}
+[16.353199] (-) TimerEvent: {}
+[16.453567] (-) TimerEvent: {}
+[16.553865] (-) TimerEvent: {}
+[16.654212] (-) TimerEvent: {}
+[16.754455] (-) TimerEvent: {}
+[16.854826] (-) TimerEvent: {}
+[16.955192] (-) TimerEvent: {}
+[17.055451] (-) TimerEvent: {}
+[17.155816] (-) TimerEvent: {}
+[17.256177] (-) TimerEvent: {}
+[17.356569] (-) TimerEvent: {}
+[17.456933] (-) TimerEvent: {}
+[17.557365] (-) TimerEvent: {}
+[17.657709] (-) TimerEvent: {}
+[17.758078] (-) TimerEvent: {}
+[17.858449] (-) TimerEvent: {}
+[17.958809] (-) TimerEvent: {}
+[18.059170] (-) TimerEvent: {}
+[18.159537] (-) TimerEvent: {}
+[18.259876] (-) TimerEvent: {}
+[18.360248] (-) TimerEvent: {}
+[18.460506] (-) TimerEvent: {}
+[18.560847] (-) TimerEvent: {}
+[18.661200] (-) TimerEvent: {}
+[18.761579] (-) TimerEvent: {}
+[18.861946] (-) TimerEvent: {}
+[18.962292] (-) TimerEvent: {}
+[19.062625] (-) TimerEvent: {}
+[19.162989] (-) TimerEvent: {}
+[19.263339] (-) TimerEvent: {}
+[19.363692] (-) TimerEvent: {}
+[19.464072] (-) TimerEvent: {}
+[19.564446] (-) TimerEvent: {}
+[19.664823] (-) TimerEvent: {}
+[19.765176] (-) TimerEvent: {}
+[19.865535] (-) TimerEvent: {}
+[19.965885] (-) TimerEvent: {}
+[20.066241] (-) TimerEvent: {}
+[20.166586] (-) TimerEvent: {}
+[20.266923] (-) TimerEvent: {}
+[20.367286] (-) TimerEvent: {}
+[20.467676] (-) TimerEvent: {}
+[20.568010] (-) TimerEvent: {}
+[20.668360] (-) TimerEvent: {}
+[20.768699] (-) TimerEvent: {}
+[20.869025] (-) TimerEvent: {}
+[20.969359] (-) TimerEvent: {}
+[21.069706] (-) TimerEvent: {}
+[21.170066] (-) TimerEvent: {}
+[21.270410] (-) TimerEvent: {}
+[21.370756] (-) TimerEvent: {}
+[21.471101] (-) TimerEvent: {}
+[21.571470] (-) TimerEvent: {}
+[21.671820] (-) TimerEvent: {}
+[21.772165] (-) TimerEvent: {}
+[21.872547] (-) TimerEvent: {}
+[21.972888] (-) TimerEvent: {}
+[22.073244] (-) TimerEvent: {}
+[22.173512] (-) TimerEvent: {}
+[22.273851] (-) TimerEvent: {}
+[22.374205] (-) TimerEvent: {}
+[22.474575] (-) TimerEvent: {}
+[22.574929] (-) TimerEvent: {}
+[22.675294] (-) TimerEvent: {}
+[22.775661] (-) TimerEvent: {}
+[22.876035] (-) TimerEvent: {}
+[22.976436] (-) TimerEvent: {}
+[23.076804] (-) TimerEvent: {}
+[23.177171] (-) TimerEvent: {}
+[23.277541] (-) TimerEvent: {}
+[23.377899] (-) TimerEvent: {}
+[23.478291] (-) TimerEvent: {}
+[23.578659] (-) TimerEvent: {}
+[23.678902] (-) TimerEvent: {}
+[23.779256] (-) TimerEvent: {}
+[23.879594] (-) TimerEvent: {}
+[23.979924] (-) TimerEvent: {}
+[24.080278] (-) TimerEvent: {}
+[24.180625] (-) TimerEvent: {}
+[24.280967] (-) TimerEvent: {}
+[24.381326] (-) TimerEvent: {}
+[24.481660] (-) TimerEvent: {}
+[24.581991] (-) TimerEvent: {}
+[24.682337] (-) TimerEvent: {}
+[24.782668] (-) TimerEvent: {}
+[24.883009] (-) TimerEvent: {}
+[24.983353] (-) TimerEvent: {}
+[25.083601] (-) TimerEvent: {}
+[25.183957] (-) TimerEvent: {}
+[25.284301] (-) TimerEvent: {}
+[25.384647] (-) TimerEvent: {}
+[25.484982] (-) TimerEvent: {}
+[25.585331] (-) TimerEvent: {}
+[25.685675] (-) TimerEvent: {}
+[25.786040] (-) TimerEvent: {}
+[25.886405] (-) TimerEvent: {}
+[25.986770] (-) TimerEvent: {}
+[26.087118] (-) TimerEvent: {}
+[26.187408] (-) TimerEvent: {}
+[26.287894] (-) TimerEvent: {}
+[26.388261] (-) TimerEvent: {}
+[26.488626] (-) TimerEvent: {}
+[26.588993] (-) TimerEvent: {}
+[26.689353] (-) TimerEvent: {}
+[26.789923] (-) TimerEvent: {}
+[26.890296] (-) TimerEvent: {}
+[26.990654] (-) TimerEvent: {}
+[27.091008] (-) TimerEvent: {}
+[27.191367] (-) TimerEvent: {}
+[27.291734] (-) TimerEvent: {}
+[27.392099] (-) TimerEvent: {}
+[27.492517] (-) TimerEvent: {}
+[27.592897] (-) TimerEvent: {}
+[27.693285] (-) TimerEvent: {}
+[27.793654] (-) TimerEvent: {}
+[27.894043] (-) TimerEvent: {}
+[27.994419] (-) TimerEvent: {}
+[28.094811] (-) TimerEvent: {}
+[28.195209] (-) TimerEvent: {}
+[28.295642] (-) TimerEvent: {}
+[28.396018] (-) TimerEvent: {}
+[28.496402] (-) TimerEvent: {}
+[28.596786] (-) TimerEvent: {}
+[28.697129] (-) TimerEvent: {}
+[28.797488] (-) TimerEvent: {}
+[28.897824] (-) TimerEvent: {}
+[28.998169] (-) TimerEvent: {}
+[29.098531] (-) TimerEvent: {}
+[29.198820] (-) TimerEvent: {}
+[29.299158] (-) TimerEvent: {}
+[29.399402] (-) TimerEvent: {}
+[29.499759] (-) TimerEvent: {}
+[29.600126] (-) TimerEvent: {}
+[29.700509] (-) TimerEvent: {}
+[29.800871] (-) TimerEvent: {}
+[29.901205] (-) TimerEvent: {}
+[30.001553] (-) TimerEvent: {}
+[30.101936] (-) TimerEvent: {}
+[30.202291] (-) TimerEvent: {}
+[30.302641] (-) TimerEvent: {}
+[30.402982] (-) TimerEvent: {}
+[30.503350] (-) TimerEvent: {}
+[30.603725] (-) TimerEvent: {}
+[30.704076] (-) TimerEvent: {}
+[30.804518] (-) TimerEvent: {}
+[30.904878] (-) TimerEvent: {}
+[31.005197] (-) TimerEvent: {}
+[31.105533] (-) TimerEvent: {}
+[31.205867] (-) TimerEvent: {}
+[31.306223] (-) TimerEvent: {}
+[31.406583] (-) TimerEvent: {}
+[31.506902] (-) TimerEvent: {}
+[31.607246] (-) TimerEvent: {}
+[31.707583] (-) TimerEvent: {}
+[31.807927] (-) TimerEvent: {}
+[31.908261] (-) TimerEvent: {}
+[32.008579] (-) TimerEvent: {}
+[32.108910] (-) TimerEvent: {}
+[32.209271] (-) TimerEvent: {}
+[32.309606] (-) TimerEvent: {}
+[32.409943] (-) TimerEvent: {}
+[32.510315] (-) TimerEvent: {}
+[32.610573] (-) TimerEvent: {}
+[32.710924] (-) TimerEvent: {}
+[32.811362] (-) TimerEvent: {}
+[32.911747] (-) TimerEvent: {}
+[33.012110] (-) TimerEvent: {}
+[33.112526] (-) TimerEvent: {}
+[33.212909] (-) TimerEvent: {}
+[33.313278] (-) TimerEvent: {}
+[33.413623] (-) TimerEvent: {}
+[33.513963] (-) TimerEvent: {}
+[33.614328] (-) TimerEvent: {}
+[33.714678] (-) TimerEvent: {}
+[33.815037] (-) TimerEvent: {}
+[33.915393] (-) TimerEvent: {}
+[34.015727] (-) TimerEvent: {}
+[34.116081] (-) TimerEvent: {}
+[34.216440] (-) TimerEvent: {}
+[34.316788] (-) TimerEvent: {}
+[34.417158] (-) TimerEvent: {}
+[34.517568] (-) TimerEvent: {}
+[34.617918] (-) TimerEvent: {}
+[34.718293] (-) TimerEvent: {}
+[34.818683] (-) TimerEvent: {}
+[34.919082] (-) TimerEvent: {}
+[35.019506] (-) TimerEvent: {}
+[35.119916] (-) TimerEvent: {}
+[35.220304] (-) TimerEvent: {}
+[35.320561] (-) TimerEvent: {}
+[35.420914] (-) TimerEvent: {}
+[35.521287] (-) TimerEvent: {}
+[35.621638] (-) TimerEvent: {}
+[35.721989] (-) TimerEvent: {}
+[35.822342] (-) TimerEvent: {}
+[35.922873] (-) TimerEvent: {}
+[36.023286] (-) TimerEvent: {}
+[36.123627] (-) TimerEvent: {}
+[36.223974] (-) TimerEvent: {}
+[36.324375] (-) TimerEvent: {}
+[36.424632] (-) TimerEvent: {}
+[36.524978] (-) TimerEvent: {}
+[36.625237] (-) TimerEvent: {}
+[36.725478] (-) TimerEvent: {}
+[36.825808] (-) TimerEvent: {}
+[36.926187] (-) TimerEvent: {}
+[37.026498] (-) TimerEvent: {}
+[37.126823] (-) TimerEvent: {}
+[37.227207] (-) TimerEvent: {}
+[37.327476] (-) TimerEvent: {}
+[37.427773] (-) TimerEvent: {}
+[37.528173] (-) TimerEvent: {}
+[37.628456] (-) TimerEvent: {}
+[37.728770] (-) TimerEvent: {}
+[37.829162] (-) TimerEvent: {}
+[37.929448] (-) TimerEvent: {}
+[38.029843] (-) TimerEvent: {}
+[38.130267] (-) TimerEvent: {}
+[38.230670] (-) TimerEvent: {}
+[38.331050] (-) TimerEvent: {}
+[38.431372] (-) TimerEvent: {}
+[38.531699] (-) TimerEvent: {}
+[38.632023] (-) TimerEvent: {}
+[38.732349] (-) TimerEvent: {}
+[38.832690] (-) TimerEvent: {}
+[38.933108] (-) TimerEvent: {}
+[39.033466] (-) TimerEvent: {}
+[39.133787] (-) TimerEvent: {}
+[39.234124] (-) TimerEvent: {}
+[39.334375] (-) TimerEvent: {}
+[39.434698] (-) TimerEvent: {}
+[39.535021] (-) TimerEvent: {}
+[39.635347] (-) TimerEvent: {}
+[39.735692] (-) TimerEvent: {}
+[39.836026] (-) TimerEvent: {}
+[39.936354] (-) TimerEvent: {}
+[40.036674] (-) TimerEvent: {}
+[40.136996] (-) TimerEvent: {}
+[40.237332] (-) TimerEvent: {}
+[40.337553] (-) TimerEvent: {}
+[40.437880] (-) TimerEvent: {}
+[40.538216] (-) TimerEvent: {}
+[40.638549] (-) TimerEvent: {}
+[40.738948] (-) TimerEvent: {}
+[40.839285] (-) TimerEvent: {}
+[40.939616] (-) TimerEvent: {}
+[41.039935] (-) TimerEvent: {}
+[41.140259] (-) TimerEvent: {}
+[41.240583] (-) TimerEvent: {}
+[41.340914] (-) TimerEvent: {}
+[41.441262] (-) TimerEvent: {}
+[41.541582] (-) TimerEvent: {}
+[41.641902] (-) TimerEvent: {}
+[41.742246] (-) TimerEvent: {}
+[41.842574] (-) TimerEvent: {}
+[41.942923] (-) TimerEvent: {}
+[42.043262] (-) TimerEvent: {}
+[42.143588] (-) TimerEvent: {}
+[42.243911] (-) TimerEvent: {}
+[42.344249] (-) TimerEvent: {}
+[42.444583] (-) TimerEvent: {}
+[42.544924] (-) TimerEvent: {}
+[42.645264] (-) TimerEvent: {}
+[42.745593] (-) TimerEvent: {}
+[42.845929] (-) TimerEvent: {}
+[42.946268] (-) TimerEvent: {}
+[43.046592] (-) TimerEvent: {}
+[43.146918] (-) TimerEvent: {}
+[43.247255] (-) TimerEvent: {}
+[43.347664] (-) TimerEvent: {}
+[43.447932] (-) TimerEvent: {}
+[43.548283] (-) TimerEvent: {}
+[43.648499] (-) TimerEvent: {}
+[43.748834] (-) TimerEvent: {}
+[43.849158] (-) TimerEvent: {}
+[43.949486] (-) TimerEvent: {}
+[44.049814] (-) TimerEvent: {}
+[44.150144] (-) TimerEvent: {}
+[44.250407] (-) TimerEvent: {}
+[44.350749] (-) TimerEvent: {}
+[44.451082] (-) TimerEvent: {}
+[44.551431] (-) TimerEvent: {}
+[44.651651] (-) TimerEvent: {}
+[44.751980] (-) TimerEvent: {}
+[44.852326] (-) TimerEvent: {}
+[44.952656] (-) TimerEvent: {}
+[45.052978] (-) TimerEvent: {}
+[45.153293] (-) TimerEvent: {}
+[45.253627] (-) TimerEvent: {}
+[45.353975] (-) TimerEvent: {}
+[45.454292] (-) TimerEvent: {}
+[45.554612] (-) TimerEvent: {}
+[45.654929] (-) TimerEvent: {}
+[45.755279] (-) TimerEvent: {}
+[45.855618] (-) TimerEvent: {}
+[45.955941] (-) TimerEvent: {}
+[46.056275] (-) TimerEvent: {}
+[46.156604] (-) TimerEvent: {}
+[46.256927] (-) TimerEvent: {}
+[46.357260] (-) TimerEvent: {}
+[46.457577] (-) TimerEvent: {}
+[46.557897] (-) TimerEvent: {}
+[46.658218] (-) TimerEvent: {}
+[46.758557] (-) TimerEvent: {}
+[46.858932] (-) TimerEvent: {}
+[46.959292] (-) TimerEvent: {}
+[47.059624] (-) TimerEvent: {}
+[47.159951] (-) TimerEvent: {}
+[47.260285] (-) TimerEvent: {}
+[47.360625] (-) TimerEvent: {}
+[47.460887] (-) TimerEvent: {}
+[47.561250] (-) TimerEvent: {}
+[47.661577] (-) TimerEvent: {}
+[47.761908] (-) TimerEvent: {}
+[47.862255] (-) TimerEvent: {}
+[47.962489] (-) TimerEvent: {}
+[48.062709] (-) TimerEvent: {}
+[48.162922] (-) TimerEvent: {}
+[48.263259] (-) TimerEvent: {}
+[48.363590] (-) TimerEvent: {}
+[48.463915] (-) TimerEvent: {}
+[48.564252] (-) TimerEvent: {}
+[48.664584] (-) TimerEvent: {}
+[48.764856] (-) TimerEvent: {}
+[48.865217] (-) TimerEvent: {}
+[48.965578] (-) TimerEvent: {}
+[49.065906] (-) TimerEvent: {}
+[49.166282] (-) TimerEvent: {}
+[49.266494] (-) TimerEvent: {}
+[49.366813] (-) TimerEvent: {}
+[49.467152] (-) TimerEvent: {}
+[49.567384] (-) TimerEvent: {}
+[49.667599] (-) TimerEvent: {}
+[49.767931] (-) TimerEvent: {}
+[49.868255] (-) TimerEvent: {}
+[49.968486] (-) TimerEvent: {}
+[50.068744] (-) TimerEvent: {}
+[50.169063] (-) TimerEvent: {}
+[50.269387] (-) TimerEvent: {}
+[50.369701] (-) TimerEvent: {}
+[50.470032] (-) TimerEvent: {}
+[50.570367] (-) TimerEvent: {}
+[50.670599] (-) TimerEvent: {}
+[50.770923] (-) TimerEvent: {}
+[50.871151] (-) TimerEvent: {}
+[50.971392] (-) TimerEvent: {}
+[51.071619] (-) TimerEvent: {}
+[51.171931] (-) TimerEvent: {}
+[51.272263] (-) TimerEvent: {}
+[51.372611] (-) TimerEvent: {}
+[51.472949] (-) TimerEvent: {}
+[51.573319] (-) TimerEvent: {}
+[51.673537] (-) TimerEvent: {}
+[51.773856] (-) TimerEvent: {}
+[51.874108] (-) TimerEvent: {}
+[51.974412] (-) TimerEvent: {}
+[52.074656] (-) TimerEvent: {}
+[52.174980] (-) TimerEvent: {}
+[52.275331] (-) TimerEvent: {}
+[52.375674] (-) TimerEvent: {}
+[52.475996] (-) TimerEvent: {}
+[52.576324] (-) TimerEvent: {}
+[52.676538] (-) TimerEvent: {}
+[52.776854] (-) TimerEvent: {}
+[52.877188] (-) TimerEvent: {}
+[52.977431] (-) TimerEvent: {}
+[53.077685] (-) TimerEvent: {}
+[53.178005] (-) TimerEvent: {}
+[53.278345] (-) TimerEvent: {}
+[53.378699] (-) TimerEvent: {}
+[53.479036] (-) TimerEvent: {}
+[53.579378] (-) TimerEvent: {}
+[53.679595] (-) TimerEvent: {}
+[53.779913] (-) TimerEvent: {}
+[53.880254] (-) TimerEvent: {}
+[53.980572] (-) TimerEvent: {}
+[54.080844] (-) TimerEvent: {}
+[54.181171] (-) TimerEvent: {}
+[54.281385] (-) TimerEvent: {}
+[54.381605] (-) TimerEvent: {}
+[54.481930] (-) TimerEvent: {}
+[54.582283] (-) TimerEvent: {}
+[54.682509] (-) TimerEvent: {}
+[54.782834] (-) TimerEvent: {}
+[54.883173] (-) TimerEvent: {}
+[54.983394] (-) TimerEvent: {}
+[55.083616] (-) TimerEvent: {}
+[55.183949] (-) TimerEvent: {}
+[55.284287] (-) TimerEvent: {}
+[55.384622] (-) TimerEvent: {}
+[55.484878] (-) TimerEvent: {}
+[55.585263] (-) TimerEvent: {}
+[55.685486] (-) TimerEvent: {}
+[55.785839] (-) TimerEvent: {}
+[55.886158] (-) TimerEvent: {}
+[55.986410] (-) TimerEvent: {}
+[56.086662] (-) TimerEvent: {}
+[56.186981] (-) TimerEvent: {}
+[56.287309] (-) TimerEvent: {}
+[56.387660] (-) TimerEvent: {}
+[56.487984] (-) TimerEvent: {}
+[56.588323] (-) TimerEvent: {}
+[56.688633] (-) TimerEvent: {}
+[56.788947] (-) TimerEvent: {}
+[56.889282] (-) TimerEvent: {}
+[56.989507] (-) TimerEvent: {}
+[57.089771] (-) TimerEvent: {}
+[57.190087] (-) TimerEvent: {}
+[57.290434] (-) TimerEvent: {}
+[57.390762] (-) TimerEvent: {}
+[57.491081] (-) TimerEvent: {}
+[57.591404] (-) TimerEvent: {}
+[57.691750] (-) TimerEvent: {}
+[57.792065] (-) TimerEvent: {}
+[57.892410] (-) TimerEvent: {}
+[57.992750] (-) TimerEvent: {}
+[58.093083] (-) TimerEvent: {}
+[58.193413] (-) TimerEvent: {}
+[58.293636] (-) TimerEvent: {}
+[58.393901] (-) TimerEvent: {}
+[58.494239] (-) TimerEvent: {}
+[58.594614] (-) TimerEvent: {}
+[58.694897] (-) TimerEvent: {}
+[58.795246] (-) TimerEvent: {}
+[58.895576] (-) TimerEvent: {}
+[58.995892] (-) TimerEvent: {}
+[59.096219] (-) TimerEvent: {}
+[59.196554] (-) TimerEvent: {}
+[59.296873] (-) TimerEvent: {}
+[59.397207] (-) TimerEvent: {}
+[59.497547] (-) TimerEvent: {}
+[59.597868] (-) TimerEvent: {}
+[59.698182] (-) TimerEvent: {}
+[59.798538] (-) TimerEvent: {}
+[59.898860] (-) TimerEvent: {}
+[59.999180] (-) TimerEvent: {}
+[60.099389] (-) TimerEvent: {}
+[60.199718] (-) TimerEvent: {}
+[60.300041] (-) TimerEvent: {}
+[60.400306] (-) TimerEvent: {}
+[60.500525] (-) TimerEvent: {}
+[60.600771] (-) TimerEvent: {}
+[60.701007] (-) TimerEvent: {}
+[60.801322] (-) TimerEvent: {}
+[60.901668] (-) TimerEvent: {}
+[61.001995] (-) TimerEvent: {}
+[61.102218] (-) TimerEvent: {}
+[61.202551] (-) TimerEvent: {}
+[61.302820] (-) TimerEvent: {}
+[61.403074] (-) TimerEvent: {}
+[61.503327] (-) TimerEvent: {}
+[61.603596] (-) TimerEvent: {}
+[61.703841] (-) TimerEvent: {}
+[61.804058] (-) TimerEvent: {}
+[61.904325] (-) TimerEvent: {}
+[62.004583] (-) TimerEvent: {}
+[62.104893] (-) TimerEvent: {}
+[62.205222] (-) TimerEvent: {}
+[62.305508] (-) TimerEvent: {}
+[62.405738] (-) TimerEvent: {}
+[62.506013] (-) TimerEvent: {}
+[62.606293] (-) TimerEvent: {}
+[62.706517] (-) TimerEvent: {}
+[62.806814] (-) TimerEvent: {}
+[62.907157] (-) TimerEvent: {}
+[63.007423] (-) TimerEvent: {}
+[63.107680] (-) TimerEvent: {}
+[63.208032] (-) TimerEvent: {}
+[63.308422] (-) TimerEvent: {}
+[63.408737] (-) TimerEvent: {}
+[63.509110] (-) TimerEvent: {}
+[63.609405] (-) TimerEvent: {}
+[63.709648] (-) TimerEvent: {}
+[63.809928] (-) TimerEvent: {}
+[63.910480] (-) TimerEvent: {}
+[64.010883] (-) TimerEvent: {}
+[64.111407] (-) TimerEvent: {}
+[64.211683] (-) TimerEvent: {}
+[64.312046] (-) TimerEvent: {}
+[64.412335] (-) TimerEvent: {}
+[64.512699] (-) TimerEvent: {}
+[64.613091] (-) TimerEvent: {}
+[64.713492] (-) TimerEvent: {}
+[64.813912] (-) TimerEvent: {}
+[64.914285] (-) TimerEvent: {}
+[65.014677] (-) TimerEvent: {}
+[65.115056] (-) TimerEvent: {}
+[65.215431] (-) TimerEvent: {}
+[65.315766] (-) TimerEvent: {}
+[65.416101] (-) TimerEvent: {}
+[65.516427] (-) TimerEvent: {}
+[65.616668] (-) TimerEvent: {}
+[65.717003] (-) TimerEvent: {}
+[65.817339] (-) TimerEvent: {}
+[65.917683] (-) TimerEvent: {}
+[66.018014] (-) TimerEvent: {}
+[66.118338] (-) TimerEvent: {}
+[66.218706] (-) TimerEvent: {}
+[66.319039] (-) TimerEvent: {}
+[66.419382] (-) TimerEvent: {}
+[66.519885] (-) TimerEvent: {}
+[66.620307] (-) TimerEvent: {}
+[66.720648] (-) TimerEvent: {}
+[66.821070] (-) TimerEvent: {}
+[66.921494] (-) TimerEvent: {}
+[67.021904] (-) TimerEvent: {}
+[67.122323] (-) TimerEvent: {}
+[67.222677] (-) TimerEvent: {}
+[67.323088] (-) TimerEvent: {}
+[67.423425] (-) TimerEvent: {}
+[67.523831] (-) TimerEvent: {}
+[67.624336] (-) TimerEvent: {}
+[67.724628] (-) TimerEvent: {}
+[67.824954] (-) TimerEvent: {}
+[67.925366] (-) TimerEvent: {}
+[68.025767] (-) TimerEvent: {}
+[68.126162] (-) TimerEvent: {}
+[68.226596] (-) TimerEvent: {}
+[68.326931] (-) TimerEvent: {}
+[68.427334] (-) TimerEvent: {}
+[68.527611] (-) TimerEvent: {}
+[68.628021] (-) TimerEvent: {}
+[68.728419] (-) TimerEvent: {}
+[68.828718] (-) TimerEvent: {}
+[68.929124] (-) TimerEvent: {}
+[69.029540] (-) TimerEvent: {}
+[69.129944] (-) TimerEvent: {}
+[69.230347] (-) TimerEvent: {}
+[69.330633] (-) TimerEvent: {}
+[69.431065] (-) TimerEvent: {}
+[69.531462] (-) TimerEvent: {}
+[69.631868] (-) TimerEvent: {}
+[69.732275] (-) TimerEvent: {}
+[69.832690] (-) TimerEvent: {}
+[69.933100] (-) TimerEvent: {}
+[70.033514] (-) TimerEvent: {}
+[70.133919] (-) TimerEvent: {}
+[70.234341] (-) TimerEvent: {}
+[70.334742] (-) TimerEvent: {}
+[70.435144] (-) TimerEvent: {}
+[70.535554] (-) TimerEvent: {}
+[70.635959] (-) TimerEvent: {}
+[70.736356] (-) TimerEvent: {}
+[70.836748] (-) TimerEvent: {}
+[70.937161] (-) TimerEvent: {}
+[71.037575] (-) TimerEvent: {}
+[71.137972] (-) TimerEvent: {}
+[71.238362] (-) TimerEvent: {}
+[71.338632] (-) TimerEvent: {}
+[71.439006] (-) TimerEvent: {}
+[71.539461] (-) TimerEvent: {}
+[71.639902] (-) TimerEvent: {}
+[71.740313] (-) TimerEvent: {}
+[71.840667] (-) TimerEvent: {}
+[71.941093] (-) TimerEvent: {}
+[72.041427] (-) TimerEvent: {}
+[72.141815] (-) TimerEvent: {}
+[72.242246] (-) TimerEvent: {}
+[72.342637] (-) TimerEvent: {}
+[72.443042] (-) TimerEvent: {}
+[72.543411] (-) TimerEvent: {}
+[72.643810] (-) TimerEvent: {}
+[72.744221] (-) TimerEvent: {}
+[72.844576] (-) TimerEvent: {}
+[72.945005] (-) TimerEvent: {}
+[73.045440] (-) TimerEvent: {}
+[73.145755] (-) TimerEvent: {}
+[73.246077] (-) TimerEvent: {}
+[73.346443] (-) TimerEvent: {}
+[73.446850] (-) TimerEvent: {}
+[73.547273] (-) TimerEvent: {}
+[73.647668] (-) TimerEvent: {}
+[73.748072] (-) TimerEvent: {}
+[73.848493] (-) TimerEvent: {}
+[73.948893] (-) TimerEvent: {}
+[74.049296] (-) TimerEvent: {}
+[74.149609] (-) TimerEvent: {}
+[74.250014] (-) TimerEvent: {}
+[74.350436] (-) TimerEvent: {}
+[74.450763] (-) TimerEvent: {}
+[74.551179] (-) TimerEvent: {}
+[74.651588] (-) TimerEvent: {}
+[74.751989] (-) TimerEvent: {}
+[74.852300] (-) TimerEvent: {}
+[74.952642] (-) TimerEvent: {}
+[75.052969] (-) TimerEvent: {}
+[75.153375] (-) TimerEvent: {}
+[75.253784] (-) TimerEvent: {}
+[75.354219] (-) TimerEvent: {}
+[75.454626] (-) TimerEvent: {}
+[75.555069] (-) TimerEvent: {}
+[75.655485] (-) TimerEvent: {}
+[75.755963] (-) TimerEvent: {}
+[75.856427] (-) TimerEvent: {}
+[75.956879] (-) TimerEvent: {}
+[76.057445] (-) TimerEvent: {}
+[76.157773] (-) TimerEvent: {}
+[76.258096] (-) TimerEvent: {}
+[76.358384] (-) TimerEvent: {}
+[76.458616] (-) TimerEvent: {}
+[76.558943] (-) TimerEvent: {}
+[76.659403] (-) TimerEvent: {}
+[76.759756] (-) TimerEvent: {}
+[76.860105] (-) TimerEvent: {}
+[76.960474] (-) TimerEvent: {}
+[77.060844] (-) TimerEvent: {}
+[77.161219] (-) TimerEvent: {}
+[77.261621] (-) TimerEvent: {}
+[77.361991] (-) TimerEvent: {}
+[77.462343] (-) TimerEvent: {}
+[77.562700] (-) TimerEvent: {}
+[77.663073] (-) TimerEvent: {}
+[77.763452] (-) TimerEvent: {}
+[77.863836] (-) TimerEvent: {}
+[77.964238] (-) TimerEvent: {}
+[78.064603] (-) TimerEvent: {}
+[78.164997] (-) TimerEvent: {}
+[78.265291] (-) TimerEvent: {}
+[78.365612] (-) TimerEvent: {}
+[78.466004] (-) TimerEvent: {}
+[78.469505] (sim_ros2_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library libsimROS2.so\x1b[0m\n'}
+[78.566140] (-) TimerEvent: {}
+[78.666566] (-) TimerEvent: {}
+[78.766996] (-) TimerEvent: {}
+[78.867423] (-) TimerEvent: {}
+[78.967738] (-) TimerEvent: {}
+[79.068354] (-) TimerEvent: {}
+[79.168886] (-) TimerEvent: {}
+[79.269310] (-) TimerEvent: {}
+[79.369791] (-) TimerEvent: {}
+[79.470217] (-) TimerEvent: {}
+[79.570503] (-) TimerEvent: {}
+[79.670862] (-) TimerEvent: {}
+[79.771246] (-) TimerEvent: {}
+[79.871660] (-) TimerEvent: {}
+[79.972120] (-) TimerEvent: {}
+[80.072458] (-) TimerEvent: {}
+[80.172864] (-) TimerEvent: {}
+[80.273278] (-) TimerEvent: {}
+[80.373759] (-) TimerEvent: {}
+[80.474210] (-) TimerEvent: {}
+[80.574507] (-) TimerEvent: {}
+[80.674844] (-) TimerEvent: {}
+[80.775302] (-) TimerEvent: {}
+[80.875747] (-) TimerEvent: {}
+[80.976159] (-) TimerEvent: {}
+[81.076644] (-) TimerEvent: {}
+[81.177001] (-) TimerEvent: {}
+[81.277398] (-) TimerEvent: {}
+[81.377836] (-) TimerEvent: {}
+[81.478312] (-) TimerEvent: {}
+[81.578704] (-) TimerEvent: {}
+[81.679119] (-) TimerEvent: {}
+[81.779561] (-) TimerEvent: {}
+[81.879980] (-) TimerEvent: {}
+[81.980398] (-) TimerEvent: {}
+[82.080837] (-) TimerEvent: {}
+[82.181242] (-) TimerEvent: {}
+[82.281621] (-) TimerEvent: {}
+[82.381994] (-) TimerEvent: {}
+[82.482334] (-) TimerEvent: {}
+[82.582670] (-) TimerEvent: {}
+[82.683020] (-) TimerEvent: {}
+[82.783398] (-) TimerEvent: {}
+[82.883684] (-) TimerEvent: {}
+[82.984032] (-) TimerEvent: {}
+[83.084398] (-) TimerEvent: {}
+[83.184733] (-) TimerEvent: {}
+[83.285100] (-) TimerEvent: {}
+[83.385459] (-) TimerEvent: {}
+[83.485834] (-) TimerEvent: {}
+[83.586193] (-) TimerEvent: {}
+[83.686540] (-) TimerEvent: {}
+[83.786826] (-) TimerEvent: {}
+[83.887139] (-) TimerEvent: {}
+[83.987544] (-) TimerEvent: {}
+[84.087919] (-) TimerEvent: {}
+[84.188268] (-) TimerEvent: {}
+[84.288592] (-) TimerEvent: {}
+[84.388933] (-) TimerEvent: {}
+[84.489284] (-) TimerEvent: {}
+[84.589631] (-) TimerEvent: {}
+[84.689999] (-) TimerEvent: {}
+[84.790360] (-) TimerEvent: {}
+[84.890714] (-) TimerEvent: {}
+[84.991061] (-) TimerEvent: {}
+[85.091480] (-) TimerEvent: {}
+[85.191877] (-) TimerEvent: {}
+[85.292210] (-) TimerEvent: {}
+[85.392582] (-) TimerEvent: {}
+[85.492959] (-) TimerEvent: {}
+[85.593329] (-) TimerEvent: {}
+[85.664258] (sim_ros2_interface) StdoutLine: {'line': b'[100%] Built target simROS2\n'}
+[85.669440] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[85.670164] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'install'}
+[85.674962] (sim_ros2_interface) Command: {'cmd': ['/opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake', '--install', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface'], 'cwd': '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chrisrvt'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/chrisrvt/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12/lib64:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisrvt'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/chrisrvt/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/chrisrvt/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7157'), ('NVM_DIR', '/home/chrisrvt/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisrvt'), ('JOURNAL_STREAM', '8:16855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisrvt'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12/bin:/usr/local/cuda-12/bin:/home/chrisrvt/anaconda3/condabin:/usr/local/cuda-12/bin:/home/chrisrvt/.nvm/versions/node/v20.16.0/bin:/opt/ros/humble/bin:/home/chrisrvt/.local/bin:/opt/st/stm32cubeclt_1.18.0:/opt/st/stm32cubeclt_1.18.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.18.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.18.0/CMake/bin:/opt/st/stm32cubeclt_1.18.0/Ninja/bin:/opt/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chrisrvt/anaconda3/bin'), ('SESSION_MANAGER', 'local/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:@/tmp/.ICE-unix/1889,unix/chrisrvt-Victus-by-HP-Gaming-Laptop-15-fa1xxx:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '36aa97cfa42c4c469fc1ecbfef20edce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0G4J42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chrisrvt/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e12c22ea-95b6-4017-b072-e11b95790994'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chrisrvt/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive/lib/python3.10/site-packages:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/challenge_interfaces:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble')]), 'shell': False}
+[85.677660] (sim_ros2_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[85.677895] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/lua/simROS2-typecheck.lua\n'}
+[85.678016] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/lua/simROS2.lua\n'}
+[85.678166] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/manual/en/simROS2.htm\n'}
+[85.678997] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/manual/index/simROS2.json\n'}
+[85.679105] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/lua/simROS2-ce.lua\n'}
+[85.683420] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/libsimROS2.so\n'}
+[85.693400] (-) TimerEvent: {}
+[85.736190] (sim_ros2_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/libsimROS2.so" to ""\n'}
+[85.736592] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface\n'}
+[85.736804] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface\n'}
+[85.737005] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh\n'}
+[85.737144] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv\n'}
+[85.737258] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh\n'}
+[85.737362] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv\n'}
+[85.737471] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash\n'}
+[85.737579] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh\n'}
+[85.737697] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh\n'}
+[85.737790] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv\n'}
+[85.737870] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv\n'}
+[85.737950] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface\n'}
+[85.738042] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake\n'}
+[85.738127] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake\n'}
+[85.738205] (sim_ros2_interface) StdoutLine: {'line': b'-- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/sim_ros2_interface/share/sim_ros2_interface/package.xml\n'}
+[85.739121] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[85.754056] (sim_ros2_interface) JobEnded: {'identifier': 'sim_ros2_interface', 'rc': 0}
+[85.755228] (-) EventReactorShutdown: {}

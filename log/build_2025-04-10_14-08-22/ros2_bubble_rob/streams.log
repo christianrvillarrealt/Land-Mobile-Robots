@@ -1,0 +1,72 @@
+[0.159s] Invoking command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/ros2_bubble_rob -DCMAKE_BUILD_TYPE=release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.339s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.489s] -- Found Python3: /home/chrisrvt/venvs/intelligent_robotics__venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.554s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.601s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.736s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.762s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.857s] -- Found Threads: TRUE  
+[0.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.915s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.990s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.992s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/ros2_bubble_rob/include>
+[0.992s] -- Configured cppcheck exclude dirs and/or files: 
+[0.993s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.993s] -- Configured cpplint exclude dirs and/or files: 
+[0.994s] -- Added test 'lint_cmake' to check CMake code style
+[0.996s] -- Added test 'uncrustify' to check C / C++ code style
+[0.996s] -- Configured uncrustify additional arguments: 
+[0.997s] -- Added test 'xmllint' to check XML markup files
+[0.998s] -- Configuring done (0.8s)
+[1.004s] -- Generating done (0.0s)
+[1.007s] -- Build files have been written to: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob
+[1.014s] Invoked command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/ros2_bubble_rob -DCMAKE_BUILD_TYPE=release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob
+[1.017s] Invoking command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob -- -j20 -l20
+[1.037s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2BubbleRob.dir/src/ros2BubbleRob.cpp.o[0m
+[11.051s] [100%] [32m[1mLinking CXX executable ros2BubbleRob[0m
+[11.171s] [100%] Built target ros2BubbleRob
+[11.175s] Invoked command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --build /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob -- -j20 -l20
+[11.180s] Invoking command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob
+[11.181s] -- Install configuration: "release"
+[11.182s] -- Execute custom install script
+[11.182s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ament_index/resource_index/package_run_dependencies/ros2_bubble_rob
+[11.185s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ament_index/resource_index/parent_prefix_path/ros2_bubble_rob
+[11.187s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.sh
+[11.189s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.dsv
+[11.191s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.sh
+[11.194s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.dsv
+[11.196s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.bash
+[11.198s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.sh
+[11.200s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.zsh
+[11.203s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.dsv
+[11.205s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv
+[11.207s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ament_index/resource_index/packages/ros2_bubble_rob
+[11.209s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig.cmake
+[11.211s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig-version.cmake
+[11.213s] -- Symlinking: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/share/ros2_bubble_rob/package.xml
+[11.216s] -- Installing: /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/lib/ros2_bubble_rob/ros2BubbleRob
+[11.216s] -- Set non-toolchain portion of runtime path of "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/install/ros2_bubble_rob/lib/ros2_bubble_rob/ros2BubbleRob" to ""
+[11.218s] Invoked command in '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/puzzlebot_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/motor_control:/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/challenge/install/differential_drive:/opt/ros/humble PS1=(intelligent_robotics__venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(intelligent_robotics__venv) /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake --install /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/ros2_bubble_rob
