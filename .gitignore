@@ -1,7 +1,7 @@
 # ROS2
-mobile_land_robots/install/
-mobile_land_robots/build/
-mobile_land_robots/log/
+install/
+build/
+log/
 
 # CoppeliaSim cache
 *.log

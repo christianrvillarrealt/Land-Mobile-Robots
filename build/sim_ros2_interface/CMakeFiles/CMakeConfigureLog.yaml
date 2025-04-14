@@ -711,3 +711,125 @@ events:
         4;9;0;6;0
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake/FindCoppeliaSim.cmake:94 (try_run)"
+      - "CMakeLists.txt:61 (find_package)"
+    directories:
+      source: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+      binary: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/cmake/modules;/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake"
+    buildResult:
+      variable: "COPPELIASIM_VERSION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ae0d/fast
+        gmake[1]: Entering directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7ae0d.dir/build.make CMakeFiles/cmTC_7ae0d.dir/build
+        gmake[2]: Entering directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7ae0d.dir/sim_version_check.cpp.o
+        /usr/bin/c++  -I/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include -std=gnu++17 -o CMakeFiles/cmTC_7ae0d.dir/sim_version_check.cpp.o -c /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check.cpp
+        Linking CXX executable cmTC_7ae0d
+        /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae0d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7ae0d.dir/sim_version_check.cpp.o -o cmTC_7ae0d 
+        gmake[2]: Leaving directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        gmake[1]: Leaving directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "COPPELIASIM_VERSION_RUN_RESULT"
+      cached: true
+      stdout: |
+        4;9;0;6;0
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake/FindCoppeliaSim.cmake:94 (try_run)"
+      - "CMakeLists.txt:61 (find_package)"
+    directories:
+      source: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+      binary: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/cmake/modules;/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake"
+    buildResult:
+      variable: "COPPELIASIM_VERSION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1c9b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d1c9b.dir/build.make CMakeFiles/cmTC_d1c9b.dir/build
+        gmake[1]: Entering directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_d1c9b.dir/sim_version_check.cpp.o
+        /usr/bin/c++  -I/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include -std=gnu++17 -o CMakeFiles/cmTC_d1c9b.dir/sim_version_check.cpp.o -c /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check.cpp
+        Linking CXX executable cmTC_d1c9b
+        /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c9b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d1c9b.dir/sim_version_check.cpp.o -o cmTC_d1c9b 
+        gmake[1]: Leaving directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "COPPELIASIM_VERSION_RUN_RESULT"
+      cached: true
+      stdout: |
+        4;9;0;6;0
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake/FindCoppeliaSim.cmake:94 (try_run)"
+      - "CMakeLists.txt:61 (find_package)"
+    directories:
+      source: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+      binary: "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/src/simROS2/cmake/modules;/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include/cmake"
+    buildResult:
+      variable: "COPPELIASIM_VERSION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd748/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dd748.dir/build.make CMakeFiles/cmTC_dd748.dir/build
+        gmake[1]: Entering directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_dd748.dir/sim_version_check.cpp.o
+        /usr/bin/c++  -I/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04/programming/include -std=gnu++17 -o CMakeFiles/cmTC_dd748.dir/sim_version_check.cpp.o -c /home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check.cpp
+        Linking CXX executable cmTC_dd748
+        /opt/st/stm32cubeclt_1.18.0/CMake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd748.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_dd748.dir/sim_version_check.cpp.o -o cmTC_dd748 
+        gmake[1]: Leaving directory '/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/sim_version_check/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "COPPELIASIM_VERSION_RUN_RESULT"
+      cached: true
+      stdout: |
+        4;9;0;6;0
+      exitCode: 0
+...

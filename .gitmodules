@@ -1,3 +1,9 @@
 [submodule "src/ros2_bubble_rob"]
 	path = src/ros2_bubble_rob
 	url = https://github.com/CoppeliaRobotics/ros2_bubble_rob.git
+[submodule "src/src"]
+	path = src/src
+	url = https://github.com/CoppeliaRobotics/simROS2.git
+[submodule "src/simROS2"]
+	path = src/simROS2
+	url = https://github.com/CoppeliaRobotics/simROS2.git
