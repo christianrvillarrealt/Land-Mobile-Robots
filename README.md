@@ -5,9 +5,11 @@ This repository is dedicated to my study of the fundamentals of mobile robotics 
 
 This repository's ROS2 workspace contains a package for simulating ground-based mobile robots in CoppeliaSim..
 
-=======
+### CoppeliaSim Installation
 
-## Build mobile_land_robots ROS2 package
+Consult the CoppeliaSim website to download the simulator: https://www.coppeliarobotics.com/
+
+### Build mobile_land_robots ROS2 package
 
 To build the package with **colcon build**, set the environment variable in your ~/.bashrc file that points to the path of your CoppeliaSim application **COPPELIASIM_ROOT_DIR**. Consider the following example:
 
@@ -29,5 +31,17 @@ Also install the following two packages ZeroMQ (ZMQ) and cbor (Concise Binary Ob
 
 Consult the following ROS2 tutorial in the CoppeliaSim website for further details:
 https://manual.coppeliarobotics.com/en/ros2Tutorial.htm
->>>>>>> c690002 (CoppeliaSim Differential Wheeled Robot PID Controller with Visual Feedback Project, ROS2 - CoppeliaSim Interface, and BubbleRob ROS2 submodule node added to repository)
 
+### Submodule Management
+
+This ROS2 workspace depends on the **'simROS2'** and **'ros2_bubble_rob'** packages loaded as submodules, go to the repository root directory and run the following command:
+
+``` git submodule update --init --recursive ```
+
+After that, build the **'mobile_land_robots'** workspace
+
+``` colcon build ```
+
+Set environment variables with install/setup.bash file
+
+``` source install/setup.bash ```

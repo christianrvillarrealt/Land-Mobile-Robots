@@ -1,7 +1,7 @@
 # ROS2
-install/
-build/
-log/
+/install/
+/build/
+/log/
 
 # CoppeliaSim cache
 *.log
