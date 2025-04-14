@@ -1,1 +1,0 @@
-/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/ament_cmake_environment_hooks/local_setup.sh
