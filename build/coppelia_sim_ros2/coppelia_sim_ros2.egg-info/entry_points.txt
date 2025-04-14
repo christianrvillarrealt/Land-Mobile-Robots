@@ -1,2 +1,0 @@
-[console_scripts]
-image_display = coppelia_sim_ros2.image_display:main

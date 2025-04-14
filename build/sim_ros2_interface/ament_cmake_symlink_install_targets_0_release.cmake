@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chrisrvt/projects/Implementation_of_Intelligent_Robotics/mobile_land_robots/build/sim_ros2_interface/libsimROS2.so" "TARGETS" "simROS2" "DESTINATION" "/home/chrisrvt/CoppeliaSim_Edu_V4_9_0_rev6_Ubuntu22_04")
